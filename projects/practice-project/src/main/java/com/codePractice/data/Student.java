@@ -10,11 +10,15 @@ public class Student {
     private double gpa;
     private String gender;
     private int noteBooks;
+//    private Optional<Bike> bike;
 
-
-    public Student(){
-
-    }
+//    public Optional<Bike> getBike() {
+//        return bike;
+//    }
+//
+//    public void setBike(Optional<Bike> bike) {
+//        this.bike = bike;
+//    }
 
     public Student(String name, int gradeLevel, double gpa, String gender, int noteBooks, List<String> activities) {
         this.name = name;

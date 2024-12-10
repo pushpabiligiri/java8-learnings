@@ -7,10 +7,7 @@ import java.util.function.Supplier;
 
 public class StudentDataBase {
 
-
-
-
-    /**
+       /**
      * Total of 6 students in the database.
      * @return
      */
@@ -36,4 +33,3 @@ public class StudentDataBase {
         return students;
     }
 }
-
